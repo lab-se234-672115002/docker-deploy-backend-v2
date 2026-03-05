@@ -3,10 +3,10 @@ name: Deploy application to Server
 on:
   push:
     branches:
-      - main
+      - camt
   pull_request:
     branches:
-      - main
+      - camt
 
 jobs:
   build:
