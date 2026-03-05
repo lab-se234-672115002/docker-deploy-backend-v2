@@ -1,12 +1,12 @@
 name: Deploy application to Server
 
 on:
-  push:
-    branches:
-      - camt
-  pull_request:
-    branches:
-      - camt
+#  push:
+#    branches:
+#      - camt
+#  pull_request:
+#    branches:
+#      - camt
 
 jobs:
   build:
