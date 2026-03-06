@@ -4,5 +4,9 @@ services:
     pull_policy: always
     ports:
       - "8082:8080"
+    environment:
+      - VITE_GRAPHQL_URI=http://54.90.216.90/graphql
+      - VITE_SERVER_URI=http://54.90.216.90/:8082
+      
     restart: unless-stopped
 # cmommakomk
